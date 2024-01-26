@@ -4,7 +4,7 @@
 
 Questo repository contiene il materiale per il corso di formazione Python.
 
-Il link per le video lezioni [qui](https://drive.google.com/drive/u/0/folders/1Gt0HNnjT-JbZmXq5L1XllexOlAwvEIcA).
+Il link per le video lezioni [qui](https://workdrive.zoho.com/folder/colzy58bdc0abbb7c42bab06639b60a00dc55).
 
 ## Esercizi svolti
 
