@@ -14,6 +14,7 @@ Il link per le video lezioni [qui](https://drive.google.com/drive/u/0/folders/1G
 - [Esercizio4](/esercizio4.py)
 - [Esercizio5](/esercizio5.py)
 - [Esercizio6](/esercizio6.py)
+- [Esercizio7](/esercizio7.py)
 
 ### Link utili
 
