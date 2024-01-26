@@ -12,3 +12,5 @@ Il link per le video lezioni [qui](https://drive.google.com/drive/u/0/folders/1G
 - [cocalc](https://cocalc.com/)
 - [anaconda](https://www.anaconda.com/)
 - [colab](https://colab.research.google.com/)
+- [pytutorial](https://pytutorial-it.readthedocs.io/it/python3.12/datastructures.html#un-approfondimento-sulle-liste)
+- [codegrind](https://codegrind.it/documentazione/python)
