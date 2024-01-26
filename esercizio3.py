@@ -1,3 +1,15 @@
+# Write a Python program to construct the following pattern, using a nested for loop.
+
+# *
+# **
+# ***
+# ****
+# *****
+# **** 
+# *** 
+# ** 
+# *
+
 rows = 5
 
 for i in range(rows):
