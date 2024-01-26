@@ -8,13 +8,13 @@ Il link per le video lezioni [qui](https://workdrive.zoho.com/folder/colzy58bdc0
 
 ## Esercizi svolti
 
-- [Esercizio1](/esercizio1.py)
-- [Esercizio2](/esercizio2.py)
-- [Esercizio3](/esercizio3.py)
-- [Esercizio4](/esercizio4.py)
-- [Esercizio5](/esercizio5.py)
-- [Esercizio6](/esercizio6.py)
-- [Esercizio7](/esercizio7.py)
+- [Esercizio1](/esercizi/esercizio1.py)
+- [Esercizio2](/esercizi/esercizio2.py)
+- [Esercizio3](/esercizi/esercizio3.py)
+- [Esercizio4](/esercizi/esercizio4.py)
+- [Esercizio5](/esercizi/esercizio5.py)
+- [Esercizio6](/esercizi/esercizio6.py)
+- [Esercizio7](/esercizi/esercizio7.py)
 
 ### Link utili
 
