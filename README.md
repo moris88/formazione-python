@@ -6,6 +6,46 @@ Questo repository contiene il materiale per il corso di formazione Python.
 
 Il link per le video lezioni [qui](https://workdrive.zoho.com/folder/colzy58bdc0abbb7c42bab06639b60a00dc55).
 
+## Virtual environment python
+
+- installare un ambiente virtuale python:
+
+```bash
+python -m venv <label_name>
+```
+
+- attivare l'ambiente virtuale:
+
+```bash
+<label_name>/Scripts/activate
+```
+
+## Installazione dipendenze
+
+- installare le dipendenze:
+
+```bash
+pip install <package_name>
+```
+
+- lista dei package installati:
+
+```bash
+pip freeze
+```
+
+oppure 
+
+```bash
+pip list
+```
+
+- rimuovere un package:
+
+```bash
+pip uninstall <package_name>
+```
+
 ## Esercizi svolti
 
 - [Esercizio1](/esercizi/esercizio1.py)
@@ -15,10 +55,18 @@ Il link per le video lezioni [qui](https://workdrive.zoho.com/folder/colzy58bdc0
 - [Esercizio5](/esercizi/esercizio5.py)
 - [Esercizio6](/esercizi/esercizio6.py)
 - [Esercizio7](/esercizi/esercizio7.py)
+- [Esercizio8](/esercizi/esercizio8.py)
+
+### Link Estensioni VSCode
+
+- [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8)
+- [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ### Link utili
 
 - [python](https://www.python.org/downloads/)
+- [pip](https://pypi.org/)
 - [cocalc](https://cocalc.com/)
 - [anaconda](https://www.anaconda.com/)
 - [colab](https://colab.research.google.com/)
