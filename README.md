@@ -34,7 +34,7 @@ pip install <package_name>
 pip freeze
 ```
 
-oppure 
+oppure
 
 ```bash
 pip list
