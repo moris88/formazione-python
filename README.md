@@ -62,6 +62,7 @@ pip uninstall <package_name>
 - [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8)
 - [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 
 ### Link utili
 
