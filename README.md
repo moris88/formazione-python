@@ -46,6 +46,12 @@ pip list
 pip uninstall <package_name>
 ```
 
+## Lezioni
+
+- [Lezione 1](/lezioni/lezione1.md)
+- [Lezione 2](/lezioni/lezione2.md)
+- [Lezione 3](/lezioni/lezione3.md)
+
 ## Esercizi svolti
 
 - [Esercizio1](/esercizi/esercizio1.py)
@@ -56,6 +62,10 @@ pip uninstall <package_name>
 - [Esercizio6](/esercizi/esercizio6.py)
 - [Esercizio7](/esercizi/esercizio7.py)
 - [Esercizio8](/esercizi/esercizio8.py)
+- [Esercizio9](/esercizi/esercizio9.py)
+- [Esercizio10](/esercizi/esercizio10.py)
+- [Esercizio11](/esercizi/esercizio11.py)
+- [Esercizio12](/esercizi/esercizio12.py)
 
 ### Link Estensioni VSCode
 
