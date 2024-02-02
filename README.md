@@ -2,9 +2,30 @@
 
 ## Introduzione
 
-Questo repository contiene il materiale per il corso di formazione Python.
+Questo repository contiene materiale didattico per l'apprendimento del linguaggio di programmazione Python. Il materiale è strutturato in lezioni e esercizi svolti.
 
-Il link per le video lezioni [qui](https://workdrive.zoho.com/folder/colzy58bdc0abbb7c42bab06639b60a00dc55).
+## Lezioni
+
+- [Lezione 1](/lezioni/lezione1.md)
+- [Lezione 2](/lezioni/lezione2.md)
+- [Lezione 3](/lezioni/lezione3.md)
+- [Lezione 4](/lezioni/lezione4.md)
+- [Lezione 5](/lezioni/lezione5.md)
+
+## Esercizi svolti
+
+- [Esercizio1](/esercizi/esercizio1.py)
+- [Esercizio2](/esercizi/esercizio2.py)
+- [Esercizio3](/esercizi/esercizio3.py)
+- [Esercizio4](/esercizi/esercizio4.py)
+- [Esercizio5](/esercizi/esercizio5.py)
+- [Esercizio6](/esercizi/esercizio6.py)
+- [Esercizio7](/esercizi/esercizio7.py)
+- [Esercizio8](/esercizi/esercizio8.py)
+- [Esercizio9](/esercizi/esercizio9.py)
+- [Esercizio10](/esercizi/esercizio10.py)
+- [Esercizio11](/esercizi/esercizio11.py)
+- [Esercizio12](/esercizi/esercizio12.py)
 
 ## Virtual environment python
 
@@ -45,29 +66,6 @@ pip list
 ```bash
 pip uninstall <package_name>
 ```
-
-## Lezioni
-
-- [Lezione 1](/lezioni/lezione1.md)
-- [Lezione 2](/lezioni/lezione2.md)
-- [Lezione 3](/lezioni/lezione3.md)
-- [Lezione 4](/lezioni/lezione4.md)
-- [Lezione 5](/lezioni/lezione5.md)
-
-## Esercizi svolti
-
-- [Esercizio1](/esercizi/esercizio1.py)
-- [Esercizio2](/esercizi/esercizio2.py)
-- [Esercizio3](/esercizi/esercizio3.py)
-- [Esercizio4](/esercizi/esercizio4.py)
-- [Esercizio5](/esercizi/esercizio5.py)
-- [Esercizio6](/esercizi/esercizio6.py)
-- [Esercizio7](/esercizi/esercizio7.py)
-- [Esercizio8](/esercizi/esercizio8.py)
-- [Esercizio9](/esercizi/esercizio9.py)
-- [Esercizio10](/esercizi/esercizio10.py)
-- [Esercizio11](/esercizi/esercizio11.py)
-- [Esercizio12](/esercizi/esercizio12.py)
 
 ### Link Estensioni VSCode
 
