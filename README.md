@@ -21,8 +21,22 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [Lezione 6](/lezioni/lezione6.md): Casting
 - [Lezione 7](/lezioni/lezione7.md): Input e Output
 - [Lezione 8](/lezioni/lezione8.md): Modulo Math
+- [Lezione 9](/lezioni/lezione9.md): Operatori di confronto e logici
+- [Lezione 10](/lezioni/lezione10.md): Istruzioni Condizionali
+- [Lezione 11](/lezioni/lezione11.md): Cicli
+- [Lezione 12](/lezioni/lezione12.md): Funzioni
+- [Lezione 13](/lezioni/lezione13.md): Classi e Oggetti
+- [Lezione 14](/lezioni/lezione14.md): Eccezioni
+- [Lezione 15](/lezioni/lezione15.md): Moduli e Pacchetti
+- [Lezione 16](/lezioni/lezione16.md): File I/O
 
 work in progress...
+
+## Approfondimenti
+
+- [Interprete](/approfondimenti/Interprete.md)
+- [Strutture dati](/approfondimenti/StruttureDati.md)
+- [Virtual environment e package](/approfondimenti/VEP.md)
 
 ## Esercizi svolti
 
