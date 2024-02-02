@@ -79,12 +79,12 @@ pip uninstall <package_name>
 
 ### Link utili
 
-- [python](https://www.python.org/downloads/)
-- [pip](https://pypi.org/)
+- [python.org](https://www.python.org/downloads/)
+- [pypi](https://pypi.org/)
 - [cocalc](https://cocalc.com/)
 - [anaconda](https://www.anaconda.com/)
 - [colab](https://colab.research.google.com/)
-- [pytutorial](https://pytutorial-it.readthedocs.io/it/python3.12/datastructures.html#un-approfondimento-sulle-liste)
-- [codegrind](https://codegrind.it/documentazione/python)
+- [pytutorial](https://pytutorial-it.readthedocs.io/it/)
+- [The Python Standard Library](https://docs.python.org/3/library/index.html)
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
