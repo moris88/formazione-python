@@ -29,6 +29,8 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [Lezione 14](/lezioni/lezione14.md): Eccezioni
 - [Lezione 15](/lezioni/lezione15.md): Moduli e Pacchetti
 - [Lezione 16](/lezioni/lezione16.md): File I/O
+- [Lezione 17](/lezioni/lezione17.md): Decoratori e Generatori
+- [Lezione 18](/lezioni/lezione18.md): Context manager
 
 work in progress...
 
