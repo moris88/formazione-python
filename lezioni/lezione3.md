@@ -58,3 +58,5 @@ In questo esempio, abbiamo scambiato i valori di `a` e `b` senza la necessità d
 ### Conclusioni
 
 Le variabili in Python offrono flessibilità nella gestione dei dati senza la necessità di dichiarare il tipo in anticipo. Rispettare le convenzioni di nomenclatura aiuta a mantenere il codice leggibile e coerente. Sfrutta queste conoscenze per creare variabili significative e organizzate nei tuoi programmi Python.
+
+#### By [Maurizio Tolomeo](https://github.com/moris88)

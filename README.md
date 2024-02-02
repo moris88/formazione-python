@@ -86,3 +86,5 @@ pip uninstall <package_name>
 - [colab](https://colab.research.google.com/)
 - [pytutorial](https://pytutorial-it.readthedocs.io/it/python3.12/datastructures.html#un-approfondimento-sulle-liste)
 - [codegrind](https://codegrind.it/documentazione/python)
+
+#### By [Maurizio Tolomeo](https://github.com/moris88)

@@ -1,4 +1,4 @@
-# Sintassi 
+# Sintassi di Python
 
 In questa sezione, ti guideremo attraverso la sintassi di base di Python utilizzando il classico programma “Ciao, Mondo!“. Questo programma è spesso il primo passo quando si impara un nuovo linguaggio di programmazione, poiché dimostra la struttura fondamentale e la sintassi necessaria per visualizzare un messaggio sullo schermo.
 
@@ -44,3 +44,9 @@ In Python, non è necessario utilizzare il punto e virgola `;` alla fine di ogni
 ## Vantaggi dell'indentazione
 
 L’indentazione forza il programmatore a scrivere codice ben strutturato e leggibile. Inoltre, l’indentazione rende il codice più facile da leggere e da comprendere per gli altri programmatori.
+
+### Conclusioni
+
+La sintassi di base di Python è semplice e intuitiva. Utilizza la funzione `print()` per visualizzare i dati sulla console, utilizza i commenti per rendere il codice più leggibile, presta attenzione all’indentazione e sfrutta i vantaggi di un linguaggio di programmazione ben strutturato.
+
+#### By [Maurizio Tolomeo](https://github.com/moris88)

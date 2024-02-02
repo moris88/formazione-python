@@ -112,3 +112,5 @@ In questi esempi, stiamo utilizzando le funzioni avanzate fornite dal modulo `ma
 ### Conclusioni
 
 Il modulo math in Python fornisce un insieme completo di funzioni per operazioni matematiche avanzate. Che tu debba calcolare radici quadrate, eseguire calcoli trigonometrici o utilizzare funzioni matematiche speciali, il modulo math ti dà gli strumenti necessari per gestire compiti matematici complessi all’interno dei tuoi programmi Python.
+
+#### By [Maurizio Tolomeo](https://github.com/moris88)
