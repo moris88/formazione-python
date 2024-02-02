@@ -6,11 +6,14 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 
 ## Lezioni
 
-- [Lezione 1](/lezioni/lezione1.md)
-- [Lezione 2](/lezioni/lezione2.md)
-- [Lezione 3](/lezioni/lezione3.md)
-- [Lezione 4](/lezioni/lezione4.md)
-- [Lezione 5](/lezioni/lezione5.md)
+- [Lezione 1](/lezioni/lezione1.md): Introduzione a Python
+- [Lezione 2](/lezioni/lezione2.md): Sintassi
+- [Lezione 3](/lezioni/lezione3.md): Variabili
+- [Lezione 4](/lezioni/lezione4.md): Costanti
+- [Lezione 5](/lezioni/lezione5.md): Tipi di Dati
+- [Lezione 6](/lezioni/lezione6.md): Casting
+- [Lezione 7](/lezioni/lezione7.md): Input e Output
+- [Lezione 8](/lezioni/lezione8.md): Modulo Math
 
 ## Esercizi svolti
 

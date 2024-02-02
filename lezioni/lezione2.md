@@ -1,4 +1,4 @@
-# Sintassi di Python
+# Sintassi 
 
 In questa sezione, ti guideremo attraverso la sintassi di base di Python utilizzando il classico programma “Ciao, Mondo!“. Questo programma è spesso il primo passo quando si impara un nuovo linguaggio di programmazione, poiché dimostra la struttura fondamentale e la sintassi necessaria per visualizzare un messaggio sullo schermo.
 
