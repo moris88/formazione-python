@@ -51,6 +51,8 @@ pip uninstall <package_name>
 - [Lezione 1](/lezioni/lezione1.md)
 - [Lezione 2](/lezioni/lezione2.md)
 - [Lezione 3](/lezioni/lezione3.md)
+- [Lezione 4](/lezioni/lezione4.md)
+- [Lezione 5](/lezioni/lezione5.md)
 
 ## Esercizi svolti
 
