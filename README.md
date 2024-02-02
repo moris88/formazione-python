@@ -2,7 +2,14 @@
 
 ## Introduzione
 
-Questo repository contiene materiale didattico per l'apprendimento del linguaggio di programmazione Python. Il materiale è strutturato in lezioni e esercizi svolti.
+Questo repository contiene materiale didattico per l'apprendimento del linguaggio di programmazione Python. Il corso è strutturato in lezioni e esercizi svolti per fornire una panoramica completa delle funzionalità di Python e per consentire ai principianti di acquisire familiarità con il linguaggio.
+
+## Obiettivi
+
+- Imparare i concetti di base di Python
+- Acquisire familiarità con la sintassi di Python
+- Sviluppare competenze di programmazione in Python
+- Risolvere esercizi per applicare le conoscenze acquisite
 
 ## Lezioni
 
@@ -14,6 +21,8 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [Lezione 6](/lezioni/lezione6.md): Casting
 - [Lezione 7](/lezioni/lezione7.md): Input e Output
 - [Lezione 8](/lezioni/lezione8.md): Modulo Math
+
+work in progress...
 
 ## Esercizi svolti
 
@@ -30,45 +39,19 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [Esercizio11](/esercizi/esercizio11.py)
 - [Esercizio12](/esercizi/esercizio12.py)
 
-## Virtual environment python
+work in progress...
 
-- installare un ambiente virtuale python:
+## Prerequisiti
 
-```bash
-python -m venv <label_name>
-```
+- Conoscenza di base di programmazione
+- Computer con sistema operativo Windows, macOS o Linux
+- Connessione Internet per installare Python e Visual Studio Code
 
-- attivare l'ambiente virtuale:
+## Installazione di Python e Visual Studio Code
 
-```bash
-<label_name>/Scripts/activate
-```
-
-## Installazione dipendenze
-
-- installare le dipendenze:
-
-```bash
-pip install <package_name>
-```
-
-- lista dei package installati:
-
-```bash
-pip freeze
-```
-
-oppure
-
-```bash
-pip list
-```
-
-- rimuovere un package:
-
-```bash
-pip uninstall <package_name>
-```
+- installare Python dal sito ufficiale: [python.org](https://www.python.org/downloads/)
+- installare Visual Studio Code dal sito ufficiale: [code.visualstudio.com](https://code.visualstudio.com/)
+- installare l'estensione Python per Visual Studio Code
 
 ### Link Estensioni VSCode
 
@@ -77,9 +60,23 @@ pip uninstall <package_name>
 - [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 
-### Link utili
+## Esecuzione di script python
 
-- [python.org](https://www.python.org/downloads/)
+- aprire Visual Studio Code
+- aprire il terminale integrato con il comando `Ctrl + ù`
+- creare una cartella di lavoro
+- aprire la cartella di lavoro con Visual Studio Code
+- creare un nuovo file con estensione `.py`
+- scrivere il codice Python
+- eseguire il file con il comando `python nomefile.py`
+
+## Struttura del repository
+
+- `lezioni`: contiene le lezioni del corso
+- `esercizi`: contiene gli esercizi svolti del corso
+
+### Link Utili
+
 - [pypi](https://pypi.org/)
 - [cocalc](https://cocalc.com/)
 - [anaconda](https://www.anaconda.com/)
