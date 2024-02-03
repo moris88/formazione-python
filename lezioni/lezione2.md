@@ -50,3 +50,5 @@ L’indentazione forza il programmatore a scrivere codice ben strutturato e legg
 La sintassi di base di Python è semplice e intuitiva. Utilizza la funzione `print()` per visualizzare i dati sulla console, utilizza i commenti per rendere il codice più leggibile, presta attenzione all’indentazione e sfrutta i vantaggi di un linguaggio di programmazione ben strutturato.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione3.md) - [PREVIOUS](/lezioni/lezione1.md)

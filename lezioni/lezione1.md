@@ -25,3 +25,5 @@ Python trova applicazione in diversi campi:
 In conclusione, Python è un linguaggio di programmazione potente e flessibile, adatto sia per i principianti che per gli sviluppatori esperti, e offre una vasta gamma di possibilità per la creazione di applicazioni in diversi settori.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione2.md)

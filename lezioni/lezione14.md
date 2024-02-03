@@ -135,3 +135,5 @@ In questo esempio, stiamo utilizzando un'istruzione `except` generica per gestir
 Le eccezioni in Python consentono di gestire errori e situazioni impreviste in modo flessibile e reattivo, consentendo di scrivere codice più robusto e affidabile. È possibile utilizzare istruzioni `try`, `except` e `finally` per gestire le eccezioni, nonché definire eccezioni personalizzate per gestire errori specifici all'interno del proprio codice Python. Le eccezioni consentono di scrivere codice più flessibile e reattivo, consentendo di gestire errori e situazioni impreviste in modo efficace.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione15.md) - [PREVIOUS](/lezioni/lezione13.md)

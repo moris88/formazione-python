@@ -210,7 +210,7 @@ In questo esempio, abbiamo creato due liste `numbers` e `names` con valori numer
 
 In Python, è possibile eseguire diverse operazioni su liste, come l'aggiunta di nuovi valori, la rimozione di valori esistenti, l'accesso a valori specifici e altro ancora.
 
-#### Aggiunta di Nuovi Valori
+#### Aggiunta di Nuovi Valori della Lista
 
 Per aggiungere nuovi valori a una lista, è possibile utilizzare il metodo `append()`.
 
@@ -223,7 +223,7 @@ numbers.append(4)  # Il valore di numbers è [1, 2, 3, 4]
 
 In questo esempio, abbiamo aggiunto il valore `4` alla lista `numbers` utilizzando il metodo `append()`.
 
-#### Rimozione di Valori Esistenti
+#### Rimozione di Valori Esistenti della Lista
 
 Per rimuovere valori esistenti da una lista, è possibile utilizzare l'istruzione `del` o il metodo `remove()`.
 
@@ -285,7 +285,7 @@ In questo esempio, abbiamo creato due tuple `coordinates` e `colors` con valori 
 
 Anche se le tuple sono immutabili, è possibile eseguire alcune operazioni su di esse, come l'accesso a valori specifici e la ricerca di valori.
 
-#### Accesso a Valori Specifici
+#### Accesso a Valori Specifici della Tupla
 
 Per accedere a valori specifici all'interno di una tupla, è possibile utilizzare l'operatore di indicizzazione `[]`.
 
@@ -330,7 +330,7 @@ In questo esempio, abbiamo creato due set `fruits` e `colors` con valori di frut
 
 In Python, è possibile eseguire diverse operazioni su set, come l'aggiunta di nuovi valori, la rimozione di valori esistenti, l'intersezione, l'unione e altro ancora.
 
-#### Aggiunta di Nuovi Valori
+#### Aggiunta di Nuovi Valori del Set
 
 Per aggiungere nuovi valori a un set, è possibile utilizzare il metodo `add()`.
 
@@ -343,7 +343,7 @@ fruits.add("orange")  # Il valore di fruits è {"apple", "banana", "cherry", "or
 
 In questo esempio, abbiamo aggiunto il valore `"orange"` al set `fruits` utilizzando il metodo `add()`.
 
-#### Rimozione di Valori Esistenti
+#### Rimozione di Valori Esistenti del Set
 
 Per rimuovere valori esistenti da un set, è possibile utilizzare il metodo `remove()`.
 
@@ -414,7 +414,7 @@ del person["age"]  # Il valore di person è {"name": "Alice", "city": "New York"
 
 In questo esempio, abbiamo rimosso la coppia chiave-valore `"age": 25` dal dizionario `person` utilizzando l'istruzione `del`.
 
-#### Accesso a Valori Specifici
+#### Accesso a Valori Specifici del Dizionario
 
 Per accedere a valori specifici all'interno di un dizionario, è possibile utilizzare l'operatore di indicizzazione `[]`.
 
@@ -564,3 +564,5 @@ In questo esempio, abbiamo creato un memoryview `view` di un bytearray `buffer` 
 In questa lezione, abbiamo esplorato i tipi di dati più comuni in Python, come numeri, stringhe, booleani, liste, tuple, set, dizionari, NoneType, range, byte, bytearray e memoryview. Ognuno di questi tipi di dati ha le proprie caratteristiche e utilizzo, che possono essere sfruttati per creare programmi Python più efficaci e efficienti. Sfrutta queste conoscenze per selezionare il tipo di dati più adatto alle tue esigenze e creare programmi Python più flessibili e potenti.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione6.md) - [PREVIOUS](/lezioni/lezione4.md)

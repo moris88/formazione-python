@@ -88,3 +88,5 @@ In Python, gli operatori di confronto hanno una precedenza più alta rispetto ag
 Gli operatori di confronto e logici in Python sono utilizzati per confrontare valori e combinare condizioni per ottenere risultati booleani. Questi operatori sono ampiamente utilizzati nelle istruzioni condizionali e nei cicli per controllare il flusso del programma.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione10.md) - [PREVIOUS](/lezioni/lezione8.md)

@@ -554,3 +554,5 @@ In questo esempio, stiamo definendo una classe chiamata `Matematica` con un meto
 In questo articolo, abbiamo esplorato come definire e utilizzare classi e oggetti in Python. Abbiamo esaminato la definizione di una classe, la creazione di un oggetto, l'ereditarietà, il polimorfismo, le proprietà (attributi) e i metodi, i costruttori, i modificatori di accesso, i getter e i setter, il costruttore e `super()`, l'ereditarietà multipla, la sovrascrittura di metodi, il sovraccarico degli operatori, la sovrascrittura degli operatori, le classi e i metodi statici. Spero che questo articolo ti abbia aiutato a comprendere meglio le classi e gli oggetti in Python e come utilizzarli per creare codice più flessibile e riutilizzabile.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione14.md) - [PREVIOUS](/lezioni/lezione12.md)

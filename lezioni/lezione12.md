@@ -215,3 +215,5 @@ Le funzioni lambda sono utili per scrivere codice più conciso e leggibile in si
 Le funzioni sono un concetto fondamentale in Python e consentono di organizzare il codice in blocchi riutilizzabili. Le funzioni possono accettare input, restituire valori e svolgere operazioni specifiche. È possibile utilizzare diversi tipi di argomenti, gestire lo scope delle variabili, definire funzioni ricorsive e utilizzare funzioni anonime o lambda. Le funzioni sono uno strumento potente per scrivere codice modulare e flessibile.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione13.md) - [PREVIOUS](/lezioni/lezione11.md)

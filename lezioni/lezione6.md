@@ -50,3 +50,5 @@ In questo esempio, stiamo utilizzando la funzione di casting `int()` per convert
 Il casting in Python ti consente di manipolare e trasformare dati tra diversi tipi. Il casting implicito avviene automaticamente durante operazioni compatibili, mentre quello esplicito coinvolge l’uso di funzioni di casting per garantire che i dati siano trasformati come necessario. Presta attenzione alla possibile perdita di informazioni quando esegui il casting esplicito.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione7.md) - [PREVIOUS](/lezioni/lezione5.md)
