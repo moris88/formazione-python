@@ -19,7 +19,7 @@ If the number of hours worked is more than 50, the method computes overtime and 
 Overtime is calculated as following formula:
 
 overtime = hours_worked – 50
-Overtime amount = (overtime * (salary / 50))
+overtimeAmount = (overtime * (salary / 50))
 '''
 
 class Employee:

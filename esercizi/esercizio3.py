@@ -1,14 +1,16 @@
-# Write a Python program to construct the following pattern, using a nested for loop.
+'''
+Write a Python program to construct the following pattern, using a nested for loop.
 
-# *
-# **
-# ***
-# ****
-# *****
-# **** 
-# *** 
-# ** 
-# *
+*
+**
+***
+****
+*****
+**** 
+*** 
+** 
+*
+'''
 
 rows = 5
 

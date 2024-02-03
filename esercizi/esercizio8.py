@@ -1,28 +1,31 @@
-# Semplificare le seguenti funzioni in lambda function
-
+'''
+Rewrite the python code to simplify the following functions into lambda function:
 numbers = [1,2,3,4,5,6,7,8,9]
 
-def myFunc1(x):
+def myFunc(x):
     return x+x
     
-result1 = filter(myFunc1, numbers)
-print(list(result1))
+result = filter(myFunc, numbers)
+print(list(result))
 
-result2 = map(lambda x: x+x, numbers)
-print(list(result2))
-
+Rewrite the python code to simplify the following functions into lambda function:
 ages = [5,12,17,18,24,32]
 
-def myFunc2(x):
+def myFunc(x):
     if x < 18:
         return False
     else:
         return True
 
-adults = filter(myFunc2, ages)
+adults = filter(myFunc, ages)
+'''
 
-for x in adults:
-    print(x)
+numbers = [1,2,3,4,5,6,7,8,9]
+
+result = map(lambda x: x+x, numbers)
+print(list(result))
+
+ages = [5,12,17,18,24,32]
     
 adults = filter(lambda x: x >= 18, ages)
 print(list(adults))

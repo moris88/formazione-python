@@ -1,4 +1,6 @@
-# Write a Python script to concatenate the following dictionaries to create a new one
+'''
+Write a Python script to concatenate the following dictionaries to create a new one
+'''
 
 def concatenate_dictionaries(dictionaries):
     result = {}

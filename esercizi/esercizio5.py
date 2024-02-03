@@ -1,4 +1,6 @@
-# Write a Python a function to find the maximum sum sub-sequence in a list. Return the maximum value.
+'''
+Write a Python a function to find the maximum sum sub-sequence in a list. Return the maximum value.
+'''
 
 def max_subsequence_sum(sequence):
     max_sum = 0

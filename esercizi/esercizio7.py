@@ -1,4 +1,6 @@
-# Write a Python program to find elements in a given set that are not in another set.
+'''
+Write a Python program to find elements in a given set that are not in another set.
+'''
 
 def find_diff(set1, set2):
     diff = []

@@ -10,7 +10,7 @@ Perform the following tasks now:
     - Print table reservations.
     - Print customer orders.
 
-    Note: Use dictionaries and lists to store the data.
+Note: Use dictionaries and lists to store the data.
 '''
 
 class Restaurant:

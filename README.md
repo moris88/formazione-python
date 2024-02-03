@@ -11,7 +11,19 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - Sviluppare competenze di programmazione in Python
 - Risolvere esercizi per applicare le conoscenze acquisite
 
-## Lezioni
+## Prerequisiti
+
+- Conoscenza di base di programmazione
+- Computer con sistema operativo Windows, macOS o Linux
+- Connessione Internet per installare Python e Visual Studio Code
+
+## Struttura del repository
+
+- `lezioni`: contiene le lezioni del corso
+- `approfondimenti`: contiene approfondimenti su argomenti specifici
+- `esercizi`: contiene gli esercizi svolti del corso
+
+### Lezioni
 
 - [Lezione 1](/lezioni/lezione1.md): Introduzione a Python
 - [Lezione 2](/lezioni/lezione2.md): Sintassi
@@ -34,34 +46,15 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 
 work in progress...
 
-## Approfondimenti
+### Approfondimenti
 
 - [Interprete](/approfondimenti/Interprete.md)
 - [Strutture dati](/approfondimenti/StruttureDati.md)
 - [Virtual environment e package](/approfondimenti/VEP.md)
 
-## Esercizi svolti
+### Esercizi svolti
 
-- [Esercizio1](/esercizi/esercizio1.py)
-- [Esercizio2](/esercizi/esercizio2.py)
-- [Esercizio3](/esercizi/esercizio3.py)
-- [Esercizio4](/esercizi/esercizio4.py)
-- [Esercizio5](/esercizi/esercizio5.py)
-- [Esercizio6](/esercizi/esercizio6.py)
-- [Esercizio7](/esercizi/esercizio7.py)
-- [Esercizio8](/esercizi/esercizio8.py)
-- [Esercizio9](/esercizi/esercizio9.py)
-- [Esercizio10](/esercizi/esercizio10.py)
-- [Esercizio11](/esercizi/esercizio11.py)
-- [Esercizio12](/esercizi/esercizio12.py)
-
-work in progress...
-
-## Prerequisiti
-
-- Conoscenza di base di programmazione
-- Computer con sistema operativo Windows, macOS o Linux
-- Connessione Internet per installare Python e Visual Studio Code
+- [esercizi](/esercizi/esercizi.md)
 
 ## Installazione di Python e Visual Studio Code
 
@@ -85,11 +78,6 @@ work in progress...
 - creare un nuovo file con estensione `.py`
 - scrivere il codice Python
 - eseguire il file con il comando `python nomefile.py`
-
-## Struttura del repository
-
-- `lezioni`: contiene le lezioni del corso
-- `esercizi`: contiene gli esercizi svolti del corso
 
 ### Link Utili
 
