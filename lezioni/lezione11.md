@@ -416,3 +416,5 @@ L'istruzione `break` viene utilizzata per interrompere l'esecuzione di un ciclo,
 I cicli in Python consentono di eseguire un blocco di codice più volte, consentendo di scrivere codice più efficiente e flessibile. I cicli `for` sono utilizzati per eseguire un blocco di codice un numero specifico di volte, mentre i cicli `while` sono utilizzati per eseguire un blocco di codice finché una condizione specificata è vera.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) | [LEZIONE SUCCESSIVA](https://moris88.github.io/formazione-python/lezioni/lezione12)

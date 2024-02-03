@@ -46,3 +46,5 @@ L'utilizzo di costanti in Python offre diversi vantaggi:
 In Python, le costanti sono generalmente implementate come variabili in maiuscolo che rappresentano valori immutabili. Queste costanti possono essere utilizzate per rendere il tuo codice più chiaro, manutenibile e comprensibile. Segui le convenzioni di nomenclatura e utilizza le costanti per rappresentare valori noti e fissi nel tuo programma Python.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) | [LEZIONE SUCCESSIVA](https://moris88.github.io/formazione-python/lezioni/lezione5)

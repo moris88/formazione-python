@@ -107,3 +107,5 @@ Il file I/O è una parte importante della programmazione in Python e consente di
 In questa lezione, abbiamo esaminato il file I/O in Python, inclusi i concetti di apertura, chiusura, lettura e scrittura di file, nonché la gestione delle eccezioni durante l'apertura di un file.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) | [LEZIONE SUCCESSIVA](https://moris88.github.io/formazione-python/lezioni/lezione17)

@@ -54,3 +54,5 @@ with Transaction() as conn:
 Il context manager è un costrutto del linguaggio Python che permette di gestire le risorse in modo sicuro e pulito. Il context manager è un oggetto che implementa due metodi speciali `__enter__` e `__exit__`. Il context manager può essere utilizzato con il costrutto `with` per garantire la corretta gestione delle risorse.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/) | [LEZIONE SUCCESSIVA](https://moris88.github.io/formazione-python/lezioni/lezione19)
