@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img width="400" src="https://www.clipartmax.com/png/middle/434-4343754_python-logo.png" alt="awesome logo of python">
+  <img width="400" src="./assets/images/Python-Logo.png" alt="awesome logo of python">
   <br>
   <br>
 </p>
