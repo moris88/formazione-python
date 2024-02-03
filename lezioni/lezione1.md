@@ -26,4 +26,4 @@ In conclusione, Python è un linguaggio di programmazione potente e flessibile, 
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
 
-[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione2.md)
+[HOMEPAGE](https://moris88.github.io/formazione-python/) | [LEZIONE SUCCESSIVA](https://moris88.github.io/formazione-python/lezioni/lezione2)

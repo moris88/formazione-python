@@ -51,4 +51,4 @@ La sintassi di base di Python è semplice e intuitiva. Utilizza la funzione `pri
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
 
-[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione3.md) - [PREVIOUS](/lezioni/lezione1.md)
+[HOMEPAGE](https://moris88.github.io/formazione-python/) | [LEZIONE SUCCESSIVA](https://moris88.github.io/formazione-python/lezioni/lezione3)

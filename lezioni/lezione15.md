@@ -180,5 +180,3 @@ In Python, un modulo è un file contenente definizioni e istruzioni Python, ment
 In Python, i moduli e i pacchetti consentono di organizzare il codice in modo più modulare e riutilizzabile. I moduli possono contenere definizioni di funzioni, classi e variabili che possono essere utilizzate in altri script Python. I pacchetti possono contenere più pacchetti e moduli, consentendo di organizzare il codice in una struttura gerarchica. Segui le convenzioni di nomenclatura e utilizza i moduli e i pacchetti per organizzare e strutturare il tuo codice Python in modo più efficace.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
-
-[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione16.md) - [PREVIOUS](/lezioni/lezione14.md)

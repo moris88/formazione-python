@@ -564,5 +564,3 @@ In questo esempio, abbiamo creato un memoryview `view` di un bytearray `buffer` 
 In questa lezione, abbiamo esplorato i tipi di dati più comuni in Python, come numeri, stringhe, booleani, liste, tuple, set, dizionari, NoneType, range, byte, bytearray e memoryview. Ognuno di questi tipi di dati ha le proprie caratteristiche e utilizzo, che possono essere sfruttati per creare programmi Python più efficaci e efficienti. Sfrutta queste conoscenze per selezionare il tipo di dati più adatto alle tue esigenze e creare programmi Python più flessibili e potenti.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
-
-[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione6.md) - [PREVIOUS](/lezioni/lezione4.md)

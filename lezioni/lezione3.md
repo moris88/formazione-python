@@ -61,4 +61,4 @@ Le variabili in Python offrono flessibilità nella gestione dei dati senza la ne
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
 
-[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione4.md) - [PREVIOUS](/lezioni/lezione2.md)
+[HOMEPAGE](https://moris88.github.io/formazione-python/) | [LEZIONE SUCCESSIVA](https://moris88.github.io/formazione-python/lezioni/lezione4)

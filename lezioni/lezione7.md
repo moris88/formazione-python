@@ -86,5 +86,3 @@ In questo esempio, stiamo utilizzando la funzione `input()` per ricevere l'input
 In Python, puoi gestire diversi tipi di output utilizzando print(), formattando le stringhe e interagendo con l’utente attraverso input(). Questi strumenti consentono di creare interazioni dinamiche e coinvolgenti nei tuoi programmi.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
-
-[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione8.md) - [PREVIOUS](/lezioni/lezione6.md)

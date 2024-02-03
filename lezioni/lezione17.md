@@ -42,5 +42,3 @@ In questo esempio, `contatore` è un generatore che restituisce valori da 0 a `m
 I decoratori e i generatori sono due funzionalità potenti di Python che possono essere utilizzate per scrivere codice più efficiente e leggibile. I decoratori consentono di modificare o estendere il comportamento delle funzioni o dei metodi senza modificarne il codice sorgente, mentre i generatori consentono di scrivere codice più efficiente e leggibile per la generazione di valori uno alla volta.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
-
-[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione18.md) - [PREVIOUS](/lezioni/lezione16.md)

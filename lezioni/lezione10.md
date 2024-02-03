@@ -66,5 +66,3 @@ Le istruzioni condizionali in Python consentono di eseguire azioni diverse in ba
 Le istruzioni condizionali in Python consentono di eseguire azioni diverse in base a diverse condizioni. L'istruzione `if` viene utilizzata per eseguire un blocco di codice se una condizione è vera, l'istruzione `else` viene utilizzata per eseguire un blocco di codice se la condizione dell'istruzione `if` è falsa e l'istruzione `elif` viene utilizzata per verificare più condizioni dopo l'istruzione `if`.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
-
-[HOMEPAGE](https://moris88.github.io/formazione-python/) - [NEXT](/lezioni/lezione11.md) - [PREVIOUS](/lezioni/lezione9.md)
