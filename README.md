@@ -63,15 +63,20 @@ work in progress...
 
 - [esercizi](/esercizi/esercizi.md)
 
-## Installazione di Python e Visual Studio Code
+## Tools da installare
 
 - installare Python dal sito ufficiale: [python.org](https://www.python.org/downloads/)
 - installare Visual Studio Code dal sito ufficiale: [code.visualstudio.com](https://code.visualstudio.com/)
-- installare l'estensione Python per Visual Studio Code
+- installare l'estensione [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) per VSCode
 
-### Link Estensioni VSCode
+### Link Utili
 
-- [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Guida delle versioni](https://devguide.python.org/versions/#versions)
+- [Documentazione Ufficiale](https://www.python.org/doc/)
+- [Libreria Standard](https://docs.python.org/3/library/index.html)
+
+### Estensioni VSCode Consigliati
+
 - [autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8)
 - [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
@@ -86,15 +91,14 @@ work in progress...
 - scrivere il codice Python
 - eseguire il file con il comando `python nomefile.py`
 
-### Link Utili
+### Risorse Utili
 
 - [pypi](https://pypi.org/)
 - [cocalc](https://cocalc.com/)
 - [anaconda](https://www.anaconda.com/)
 - [colab](https://colab.research.google.com/)
 - [pytutorial](https://pytutorial-it.readthedocs.io/it/)
-- [The Python Standard Library](https://docs.python.org/3/library/index.html)
 
-[HOMEPAGE](https://moris88.github.io/formazione-python/)
+[Website](https://moris88.github.io/formazione-python/)
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
