@@ -5,7 +5,7 @@
   <br>
 </p>
 
-<h1 align='center'>Python</h1>
+<h1 align='center'>Formazione Python</h1>
 
 ## Introduzione
 
