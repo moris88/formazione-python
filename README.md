@@ -50,6 +50,9 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [Lezione 16](/lezioni/lezione16.md): File I/O
 - [Lezione 17](/lezioni/lezione17.md): Decoratori e Generatori
 - [Lezione 18](/lezioni/lezione18.md): Context manager
+- [Lezione 19](/lezioni/lezione19.md): Package Pandas
+- [Lezione 20](/lezioni/lezione20.md): Package Numpy
+- [Lezione 21](/lezioni/lezione21.md): Package Matplotlib
 
 work in progress...
 
@@ -98,6 +101,13 @@ work in progress...
 - [anaconda](https://www.anaconda.com/)
 - [colab](https://colab.research.google.com/)
 - [pytutorial](https://pytutorial-it.readthedocs.io/it/)
+- [pyenv](https://github.com/malexer/cheatsheets/blob/master/pyenv.md)
+- [pandas](https://pandas.pydata.org/)
+  - [pandas-docs](https://pandas.pydata.org/docs/reference/index.html)
+- [numpy](https://numpy.org/)
+  - [numpy-docs](https://numpy.org/doc/stable/reference/index.html#reference)
+- [matplotlib](https://matplotlib.org/)
+  - [matplotli-docs](https://matplotlib.org/stable/api/index)
 
 [Website](https://moris88.github.io/formazione-python/)
 
