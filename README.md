@@ -53,6 +53,7 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [Lezione 19](/lezioni/lezione19.md): Package Pandas
 - [Lezione 20](/lezioni/lezione20.md): Package Numpy
 - [Lezione 21](/lezioni/lezione21.md): Package Matplotlib
+- [Lezione 22](/lezioni/lezione22.md): Package SQLAlchemy
 
 work in progress...
 
