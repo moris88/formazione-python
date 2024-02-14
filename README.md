@@ -108,6 +108,9 @@ work in progress...
   - [numpy-docs](https://numpy.org/doc/stable/reference/index.html#reference)
 - [matplotlib](https://matplotlib.org/)
   - [matplotli-docs](https://matplotlib.org/stable/api/index)
+- [sqlitebrowser](https://sqlitebrowser.org/dl/)
+- [sqlite](https://www.sqlite.org/)
+- [sqlalchemy](https://www.sqlalchemy.org/)
 
 [Website](https://moris88.github.io/formazione-python/)
 

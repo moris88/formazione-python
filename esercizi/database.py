@@ -1,5 +1,5 @@
-from sqlalchemy import Column, Integer, String, create_engine, text
-from sqlalchemy.orm import sessionmaker, declarative_base
+from sqlalchemy import Column, ForeignKey, Integer, String, create_engine, text
+from sqlalchemy.orm import sessionmaker, declarative_base, relationship
 
 nomeDB = 'database.db'
 

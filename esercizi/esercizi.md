@@ -178,6 +178,27 @@ Scrivere un programma Python per inserire, aggiornare, eliminare e visualizzare 
 
 [Soluzione](/esercizi/database.py)
 
+## Esercizi Database 2
+
+Creare un database SQLite con una tabella chiamata "Costumer" con i seguenti campi:
+
+- id
+- name
+- address
+- email
+
+Creare un database SQLite con una tabella chiamata "Order" con i seguenti campi:
+
+- id
+- costumer_id
+- quantity
+- item
+- amount
+
+Scrivere un programma Python per creare una relazione tra le due tabelle e restiture una query che restituisca l'elenco delle persone che hanno richiesto degli item con quantity maggiore di 5 in ordine decrescente.
+
+[Soluzione](/esercizi/database2.py)
+
 ### Altri esercizi
 
 - [Esercizi di programmazione in Python](https://www.w3resource.com/python-exercises/)
