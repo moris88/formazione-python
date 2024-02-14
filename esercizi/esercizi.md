@@ -165,6 +165,19 @@ Nota: utilizzare dizionari ed elenchi per memorizzare i dati.
 
 [Soluzione](/esercizi/esercizio12.py)
 
+## Esercizi Database
+
+Creare un database SQLite con una tabella chiamata "Costumer" con i seguenti campi:
+
+- id
+- name
+- address
+- email
+
+Scrivere un programma Python per inserire, aggiornare, eliminare e visualizzare i dati della tabella "Costumer".
+
+[Soluzione](/esercizi/database.py)
+
 ### Altri esercizi
 
 - [Esercizi di programmazione in Python](https://www.w3resource.com/python-exercises/)
