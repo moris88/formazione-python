@@ -68,6 +68,22 @@ Matplotlib supporta molti tipi di marcatori, ad esempio `o` per cerchio, `s` per
 
 Matplotlib supporta molti tipi di linee, ad esempio `-` per linee continue, `--` per linee tratteggiate, `-.` per linee tratteggiate e puntate, `:` per linee a puntini e altri.
 
+### Color bars
+
+Matplotlib supporta anche la creazione di color bars, che sono barre colorate che rappresentano una scala di colori.
+
+```python
+# Color bars
+import numpy as np
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+plt.scatter(x, y, c=y, cmap='viridis')
+plt.colorbar()
+plt.show()
+```
+
 ## Salvataggio del grafico
 
 Matplotlib permette di salvare i grafici in diversi formati, ad esempio è possibile salvarli come file immagine in formato PNG, PDF, SVG, EPS e altri.
