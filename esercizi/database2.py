@@ -1,3 +1,22 @@
+'''
+Creare un database SQLite con una tabella chiamata "Costumer" con i seguenti campi:
+
+- id
+- name
+- address
+- email
+
+Creare un database SQLite con una tabella chiamata "Order" con i seguenti campi:
+
+- id
+- costumer_id
+- quantity
+- item
+- amount
+
+Scrivere un programma Python per creare una relazione tra le due tabelle e restiture una query che restituisca l'elenco delle persone che hanno richiesto degli item con quantity maggiore di 5 in ordine decrescente.
+'''
+
 from sqlalchemy import Column, ForeignKey, Integer, String, create_engine, text
 from sqlalchemy.orm import sessionmaker, declarative_base, relationship
 

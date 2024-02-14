@@ -199,6 +199,14 @@ Scrivere un programma Python per creare una relazione tra le due tabelle e resti
 
 [Soluzione](/esercizi/database2.py)
 
+## Esercizi Database 3
+
+Creare un database SQLite con una due tabelle: Studenti, Esami e Classi e stabilire una relazione tra le tabelle.
+Esegui una query per recuperare lo studente che in italiano ha voto superiore a 18.
+Nota: utilizza SQLAlchemy per creare il database.
+
+[Soluzione](/esercizi/database3.py)
+
 ### Altri esercizi
 
 - [Esercizi di programmazione in Python](https://www.w3resource.com/python-exercises/)

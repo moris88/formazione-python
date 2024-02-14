@@ -1,3 +1,14 @@
+'''
+Creare un database SQLite con una tabella chiamata "Costumer" con i seguenti campi:
+
+- id
+- name
+- address
+- email
+
+Scrivere un programma Python per inserire, aggiornare, eliminare e visualizzare i dati della tabella "Costumer".
+'''
+
 from sqlalchemy import Column, ForeignKey, Integer, String, create_engine, text
 from sqlalchemy.orm import sessionmaker, declarative_base, relationship
 
