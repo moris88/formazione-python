@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, create_engine, ForeignKey
+from sqlalchemy import Column, Integer, String, create_engine, text
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 nomeDB = 'database.db'
@@ -64,6 +64,11 @@ rows = session.query(Customer).filter(Customer.name.like('T%')).all()
 for row in rows:
     print(row.id, row.name, row.email, row.address)
 print()
+
+# Query with from_statement (SQL)
+rows = session.query(Customer).from_statement(text("SELECT * FROM customers WHERE address LIKE 'piazza%'")).all()
+for row in rows:
+    print(row.id, row.name, row.email, row.address)
 
 # Delete one
 session.delete(row)
