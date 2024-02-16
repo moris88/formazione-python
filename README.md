@@ -52,6 +52,7 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [Lezione 20](/lezioni/lezione20.md): Package Numpy
 - [Lezione 21](/lezioni/lezione21.md): Package Matplotlib
 - [Lezione 22](/lezioni/lezione22.md): Package SQLAlchemy
+- [Lezione 23](/lezioni/lezione23.md): Flask
 
 work in progress...
 
@@ -112,6 +113,8 @@ work in progress...
 - [sqlitebrowser](https://sqlitebrowser.org/)
 - [sqlite](https://www.sqlite.org/)
 - [sqlalchemy](https://www.sqlalchemy.org/)
+  - [sqlalchemy-docs](https://docs.sqlalchemy.org/en/20/orm/quickstart.html)
+- [flask](https://flask.palletsprojects.com/en/3.0.x/)
 
 [Website](https://moris88.github.io/formazione-python/)
 

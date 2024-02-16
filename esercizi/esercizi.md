@@ -207,6 +207,20 @@ Nota: utilizza SQLAlchemy per creare il database.
 
 [Soluzione](/esercizi/database3.py)
 
+## Esercizi Flask 1
+
+Creare un semplice webserver con Flask che restituisca una pagina web.
+
+[Soluzione](/esercizi/flask-example/server.py)
+[template](/esercizi/flask-example/templates/index.html)
+
+## Esercizi Flask 2
+
+Creare un semplice webserver con Flask che gestisce un form e restituisca una pagina web con il risultato.
+
+[Soluzione](/esercizi/flask-example/server.py)
+[template](/esercizi/flask-example/templates/index.html)
+
 ### Altri esercizi
 
 - [Esercizi di programmazione in Python](https://www.w3resource.com/python-exercises/)

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="aggiungi" method="POST">
+      <label for="citta">citta:</label><br />
+      <input type="text" name="citta" id="citta" /><br />
+      <label for="nazione">nazione:</label><br />
+      <input type="text" name="nazione" id="nazione" /><br />
+      <label for="nominativo">nominativo:</label><br />
+      <input type="text" name="nominativo" id="nominativo" /><br />
+      <label for="cognome">cognome:</label><br />
+      <input type="text" name="cognome" id="cognome" /><br />
+      <label for="data_nascita">data_nascita:</label><br />
+      <input type="date" name="data_nascita" id="data_nascita" /><br />
+      <label for="indirizzo">indirizzo:</label><br />
+      <input type="text" name="indirizzo" id="indirizzo" /><br />
+      <label for="telefono">telefono:</label><br />
+      <input type="text" name="telefono" id="telefono" /><br />
+      <label for="email">email:</label><br />
+      <input type="email" name="email" id="email" /><br />
+      <button type="submit">Invia</button><br />
+      {% if messaggio %}
+        <p>{{ messaggio }}</p><br />
+      {% endif %}
+    </form>
+  </body>
+</html>
