@@ -1,6 +1,11 @@
-# Formazione Python { align=center }
+<p align="center">
+  <br/>
+  <img width="400" src="./assets/images/Python-Logo.png" alt="awesome logo of python">
+  <br/>
+  <br/>
+</p>
 
-![awesome logo of python](./assets/images/Python-Logo.png){ width=400; align=center }
+# Formazione Python
 
 ## Introduzione
 
