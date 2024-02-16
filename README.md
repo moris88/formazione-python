@@ -70,14 +70,14 @@ work in progress...
 - installare Python dal sito ufficiale: [python.org](https://www.python.org/downloads/)
 - installare Visual Studio Code dal sito ufficiale: [code.visualstudio.com](https://code.visualstudio.com/)
 - installare l'estensione [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) per VSCode
+- installare [SQLite](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm) per la gestione di database
+- installare il software grafico [SQLite Browser](https://sqlitebrowser.org/dl/) per la gestione di database .db
 
 ### Link Utili
 
 - [Guida delle versioni](https://devguide.python.org/versions/#versions)
 - [Documentazione Ufficiale](https://www.python.org/doc/)
 - [Libreria Standard](https://docs.python.org/3/library/index.html)
-- [SQLite](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
-- [SQLite Browser](https://sqlitebrowser.org/dl/)
 
 ### Estensioni VSCode Consigliati
 
