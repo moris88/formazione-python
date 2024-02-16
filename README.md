@@ -78,6 +78,8 @@ work in progress...
 - [Guida delle versioni](https://devguide.python.org/versions/#versions)
 - [Documentazione Ufficiale](https://www.python.org/doc/)
 - [Libreria Standard](https://docs.python.org/3/library/index.html)
+- [SQLite](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
+- [SQLite Browser](https://sqlitebrowser.org/dl/)
 
 ### Estensioni VSCode Consigliati
 
@@ -109,7 +111,7 @@ work in progress...
   - [numpy-docs](https://numpy.org/doc/stable/reference/index.html#reference)
 - [matplotlib](https://matplotlib.org/)
   - [matplotli-docs](https://matplotlib.org/stable/api/index)
-- [sqlitebrowser](https://sqlitebrowser.org/dl/)
+- [sqlitebrowser](https://sqlitebrowser.org/)
 - [sqlite](https://www.sqlite.org/)
 - [sqlalchemy](https://www.sqlalchemy.org/)
 
