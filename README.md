@@ -5,9 +5,7 @@
   <br>
 </p>
 
-<h1 align='center'>Formazione Python</h1>
-
-## Introduzione
+# Introduzione
 
 Questo repository contiene materiale didattico per l'apprendimento del linguaggio di programmazione Python. Il corso è strutturato in lezioni e esercizi svolti per fornire una panoramica completa delle funzionalità di Python e per consentire ai principianti di acquisire familiarità con il linguaggio.
 
