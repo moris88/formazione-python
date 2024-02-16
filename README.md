@@ -1,11 +1,6 @@
-<p align="center">
-  <br>
-  <img width="400" src="./assets/images/Python-Logo.png" alt="awesome logo of python">
-  <br>
-  <br>
-</p>
+# Formazione Python { align=center }
 
-<h1 align='center'>Formazione Python</h1>
+![awesome logo of python](./assets/images/Python-Logo.png){ width=400; align=center }
 
 ## Introduzione
 
