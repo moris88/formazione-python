@@ -218,8 +218,8 @@ Creare un semplice webserver con Flask che restituisca una pagina web.
 
 Creare un semplice webserver con Flask che gestisce un form e restituisca una pagina web con il risultato.
 
-[Soluzione](/esercizi/flask-example/server.py)
-[template](/esercizi/flask-example/templates/index.html)
+[Soluzione](/esercizi/flask-example/servers.py)
+[template](/esercizi/flask-example/templates/indexs.html)
 
 ### Altri esercizi
 
