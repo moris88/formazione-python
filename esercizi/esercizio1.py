@@ -12,22 +12,28 @@ Fahrenheit and centigrade are two temperature scales in use today. The Fahrenhei
 Where F is the Fahrenheit temperature. You can also use this Web page to convert Fahrenheit temperatures to centigrade. Just enter a Fahrenheit temperature in the text box below, then click on the Convert button.
 '''
 
+
 def celsius_to_fahrenheit(celsius):
     fahrenheit = (celsius * 9/5) + 32
     return fahrenheit
+
 
 def fahrenheit_to_celsius(fahrenheit):
     celsius = (fahrenheit - 32) * 5/9
     return celsius
 
+
 celsius = 25
 converted_fahrenheit = celsius_to_fahrenheit(celsius)
-print(f"{celsius} degrees Celsius is equal to {converted_fahrenheit} degrees Fahrenheit.")
+print(f"{celsius} degrees Celsius is equal to {
+      converted_fahrenheit} degrees Fahrenheit.")
 
 fahrenheit = 77
 converted_celsius = fahrenheit_to_celsius(fahrenheit)
-print(f"{fahrenheit} degrees Fahrenheit is equal to {converted_celsius} degrees Celsius.")
+print(f"{fahrenheit} degrees Fahrenheit is equal to {
+      converted_celsius} degrees Celsius.")
 
 fahrenheit = float(input("Enter the temperature in Fahrenheit: "))
 converted_celsius = fahrenheit_to_celsius(fahrenheit)
-print(f"{fahrenheit} degrees Fahrenheit is equal to {converted_celsius} degrees Celsius.")
+print(f"{fahrenheit} degrees Fahrenheit is equal to {
+      converted_celsius} degrees Celsius.")

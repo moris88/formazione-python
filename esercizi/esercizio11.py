@@ -22,6 +22,7 @@ overtime = hours_worked – 50
 overtimeAmount = (overtime * (salary / 50))
 '''
 
+
 class Employee:
 
     def __init__(self, emp_id, emp_name, emp_salary, emp_department):
@@ -47,6 +48,7 @@ class Employee:
         print(f'Employee Salary: {self.emp_salary}')
         print(f'Employee Department: {self.emp_department}')
 
+
 emp1 = Employee("E7876", "ADAMS", 50000, "ACCOUNTING")
 emp1.print_employee_details()
 emp2 = Employee("E7499", "JONES", 45000, "RESEARCH")
@@ -59,4 +61,3 @@ emp4.print_employee_details()
 print(emp1.calculate_emp_salary(50000, 60))
 emp1.assign_department("RESEARCH")
 emp1.print_employee_details()
-    

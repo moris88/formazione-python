@@ -8,6 +8,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base, relationship
 
 Base = declarative_base()
 
+
 class Studenti(Base):
     __tablename__ = 'studenti'
     id = Column(Integer, primary_key=True)
@@ -18,7 +19,8 @@ class Studenti(Base):
 
     def __repr__(self):
         return "<Studenti(nome='%s', cognome='%s', esami='%s', classi='%s')>" % (self.nome, self.cognome, self.esami, self.classi)
-    
+
+
 class Esami(Base):
     __tablename__ = 'esami'
     id = Column(Integer, primary_key=True)
@@ -26,10 +28,11 @@ class Esami(Base):
     materia = Column(String)
     voto = Column(Integer)
     studente = relationship("Studenti", back_populates="esami")
-    
+
     def __repr__(self):
         return "<Esami(studente_id='%s', materia='%s', voto='%s')>" % (self.studente_id, self.materia, self.voto)
-    
+
+
 class Classi(Base):
     __tablename__ = 'classi'
     id = Column(Integer, primary_key=True)
@@ -39,7 +42,8 @@ class Classi(Base):
 
     def __repr__(self):
         return "<Classi(sezione='%s', studente_id='%s')>" % (self.sezione, self.studente_id)
-    
+
+
 engine = create_engine('sqlite:///database3.db')
 Base.metadata.create_all(engine)
 
@@ -85,18 +89,19 @@ classi = [
 for studente in studenti:
     print(studente)
     session.add(Studenti(**studente))
-    
+
 for esame in esami:
     print(esame)
     session.add(Esami(**esame))
-    
+
 for classe in classi:
     print(classe)
     session.add(Classi(**classe))
-    
+
 session.commit()
 
-rows = session.query(Studenti).join(Esami).filter(and_(Esami.voto >= 18, Esami.materia == 'Italiano')).filter(Esami.voto > 18)
+rows = session.query(Studenti).join(Esami).filter(
+    and_(Esami.voto >= 18, Esami.materia == 'Italiano')).filter(Esami.voto > 18)
 for row in rows:
     print(row)
 

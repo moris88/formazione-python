@@ -20,12 +20,12 @@ def myFunc(x):
 adults = filter(myFunc, ages)
 '''
 
-numbers = [1,2,3,4,5,6,7,8,9]
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 result = map(lambda x: x+x, numbers)
 print(list(result))
 
-ages = [5,12,17,18,24,32]
-    
+ages = [5, 12, 17, 18, 24, 32]
+
 adults = filter(lambda x: x >= 18, ages)
 print(list(adults))

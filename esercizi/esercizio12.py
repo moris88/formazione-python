@@ -13,51 +13,53 @@ Perform the following tasks now:
 Note: Use dictionaries and lists to store the data.
 '''
 
+
 class Restaurant:
 
     def __init__(self):
         self.menu_items = {}
         self.book_table = []
         self.customer_orders = []
-        
+
     def add_item_to_menu(self, item, price):
         self.menu_items[item] = price
         return self.menu_items
-    
+
     def remove_item_from_menu(self, item):
         self.menu_items.pop(item)
         return self.menu_items
-    
+
     def book_tables(self, reservation):
         self.book_table.append(reservation)
         return self.book_table
-    
+
     def customer_order(self, table, order):
         if table in self.book_table:
             self.customer_orders.append({table: order})
         else:
             print(f"Table number {table} is not reserved")
         return self.customer_orders
-    
+
     def cancel_order(self, table):
         self.customer_orders.pop(table)
         return self.customer_orders
-    
+
     def print_menu(self):
         print("Menu:")
         for item, price in self.menu_items.items():
             print(f"{item}: ${price}")
-        
+
     def print_table(self):
         print("Reserved Tables:")
         for table in self.book_table:
             print(f"Table number {table} is reserved")
-        
+
     def print_order(self):
         print("Customer Orders:")
         for order in self.customer_orders:
             for table, order in order.items():
                 print(f"Table {table}: {order}")
+
 
 restaurant = Restaurant()
 restaurant.add_item_to_menu("Ice Cream", 2.99)
