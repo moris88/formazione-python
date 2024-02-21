@@ -221,6 +221,12 @@ Creare un semplice webserver con Flask che gestisce un form e restituisca una pa
 [Soluzione](https://moris88.github.io/formazione-python/esercizi/flask-example/servers.py)
 [template](https://moris88.github.io/formazione-python/esercizi/flask-example/templates/indexs.html)
 
+## Esercizio Gioco Impiccato
+
+Ricrea con python il gioco dell'impiccato
+
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/impiccato.py)
+
 ### Altri esercizi
 
 - [Esercizi di programmazione in Python](https://www.w3resource.com/python-exercises/)
