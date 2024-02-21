@@ -48,19 +48,23 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [Lezione 16](/lezioni/lezione16.md): File I/O
 - [Lezione 17](/lezioni/lezione17.md): Decoratori e Generatori
 - [Lezione 18](/lezioni/lezione18.md): Context manager
-- [Lezione 19](/lezioni/lezione19.md): Package Pandas
-- [Lezione 20](/lezioni/lezione20.md): Package Numpy
-- [Lezione 21](/lezioni/lezione21.md): Package Matplotlib
-- [Lezione 22](/lezioni/lezione22.md): Package SQLAlchemy
-- [Lezione 23](/lezioni/lezione23.md): Flask
-
-work in progress...
+- [Lezione 19](/lezioni/lezione19.md): Type Hints
+- [Lezione 20](/lezioni/lezione20.md): Args e Kwargs
+- [Lezione 21](/lezioni/lezione21.md): Enumerazioni
+- [Lezione 22](/lezioni/lezione22.md): Richieste HTTP
+- [Lezione 23](/lezioni/lezione23.md): I JSON in Python
 
 ### Approfondimenti
 
 - [Interprete](/approfondimenti/Interprete.md)
 - [Strutture dati](/approfondimenti/StruttureDati.md)
 - [Virtual environment e package](/approfondimenti/VEP.md)
+- [Pandas](/approfondimenti/Pandas.md)
+- [Numpy](/approfondimenti/Numpy.md)
+- [Matplotlib](/approfondimenti/Matplotlib.md)
+- [SQLAlchemy](/approfondimenti/SQLAlchemy.md)
+- [Flask](/approfondimenti/Flask.md)
+- [FastAPI](/approfondimenti/FastAPI.md)
 
 ### Esercizi svolti
 
@@ -115,6 +119,9 @@ work in progress...
 - [sqlalchemy](https://www.sqlalchemy.org/)
   - [sqlalchemy-docs](https://docs.sqlalchemy.org/en/20/orm/quickstart.html)
 - [flask](https://flask.palletsprojects.com/en/3.0.x/)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [pydantic](https://pydantic-docs.helpmanual.io/)
+- [streamlit](https://docs.streamlit.io/)
 
 [Website](https://moris88.github.io/formazione-python/)
 

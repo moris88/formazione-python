@@ -16,13 +16,13 @@ Fahrenheit e centigradi sono due scale di temperatura in uso oggi. La scala Fahr
 
 Dove F è la temperatura Fahrenheit. È inoltre possibile utilizzare questa pagina Web per convertire le temperature Fahrenheit in gradi centigradi. Basta inserire una temperatura Fahrenheit nella casella di testo sottostante, quindi fare clic sul pulsante Converti.
 
-[Soluzione](/esercizi/esercizio1.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio1.py)
 
 ## Esercizi 2
 
 Scrivi un programma Python per trovare i numeri divisibili per 7 e multipli di 5, compresi tra 1500 e 2700 (entrambi inclusi).
 
-[Soluzione](/esercizi/esercizio2.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio2.py)
 
 ## Esercizi 3
 
@@ -40,31 +40,31 @@ Scrivi un programma Python per costruire il seguente modello, utilizzando un cic
 *
 ```
 
-[Soluzione](/esercizi/esercizio3.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio3.py)
 
 ## Esercizi 4
 
 Scrivi un programma Python per contare il numero di stringhe da un dato elenco di stringhe. La lunghezza della stringa è pari o superiore a 2 e il primo e l'ultimo carattere sono gli stessi.
 
-[Soluzione](/esercizi/esercizio4.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio4.py)
 
 ## Esercizi 5
 
 Scrivi una funzione Python per trovare la sottosequenza della somma massima in un elenco. Restituisce il valore massimo.
 
-[Soluzione](/esercizi/esercizio5.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio5.py)
 
 ## Esercizi 6
 
 Scrivi uno script Python per concatenare i seguenti dizionari per crearne uno nuovo.
 
-[Soluzione](/esercizi/esercizio6.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio6.py)
 
 ## Esercizi 7
 
 Scrivi un programma Python per trovare elementi in un dato insieme che non si trovano in un altro insieme.
 
-[Soluzione](/esercizi/esercizio7.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio7.py)
 
 ## Esercizi 8
 
@@ -94,13 +94,13 @@ def myFunc(x):
 adults = filter(myFunc, ages)
 ```
 
-[Soluzione](/esercizi/esercizio8.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio8.py)
 
 ## Esercizi 9
 
 Scrivere una lista di comprensione in Python che prenda una lista di numeri interi e restituisca una nuova lista contenente il quadrato dei numeri pari presenti nella lista di partenza.
 
-[Soluzione](/esercizi/esercizio9.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio9.py)
 
 ## Esercizi 10
 
@@ -115,7 +115,7 @@ list_of_dictionaries = [
 ]
 ```
 
-[Soluzione](/esercizi/esercizio10.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio10.py)
 
 ## Esercizi 11
 
@@ -145,7 +145,7 @@ overtime = hours_worked – 50
 overtimeAmount = (overtime * (salary / 50))
 ```
 
-[Soluzione](/esercizi/esercizio11.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio11.py)
 
 ## Esercizi 12
 
@@ -163,7 +163,7 @@ Esegui ora le seguenti attività:
 
 Nota: utilizzare dizionari ed elenchi per memorizzare i dati.
 
-[Soluzione](/esercizi/esercizio12.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio12.py)
 
 ## Esercizi Database
 
@@ -176,7 +176,7 @@ Creare un database SQLite con una tabella chiamata "Costumer" con i seguenti cam
 
 Scrivere un programma Python per inserire, aggiornare, eliminare e visualizzare i dati della tabella "Costumer".
 
-[Soluzione](/esercizi/database.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/database.py)
 
 ## Esercizi Database 2
 
@@ -197,7 +197,7 @@ Creare un database SQLite con una tabella chiamata "Order" con i seguenti campi:
 
 Scrivere un programma Python per creare una relazione tra le due tabelle e restiture una query che restituisca l'elenco delle persone che hanno richiesto degli item con quantity maggiore di 5 in ordine decrescente.
 
-[Soluzione](/esercizi/database2.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/database2.py)
 
 ## Esercizi Database 3
 
@@ -205,21 +205,21 @@ Creare un database SQLite con una due tabelle: Studenti, Esami e Classi e stabil
 Esegui una query per recuperare lo studente che in italiano ha voto superiore a 18.
 Nota: utilizza SQLAlchemy per creare il database.
 
-[Soluzione](/esercizi/database3.py)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/database3.py)
 
 ## Esercizi Flask 1
 
 Creare un semplice webserver con Flask che restituisca una pagina web.
 
-[Soluzione](/esercizi/flask-example/server.py)
-[template](/esercizi/flask-example/templates/index.html)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/flask-example/server.py)
+[template](https://moris88.github.io/formazione-python/esercizi/flask-example/templates/index.html)
 
 ## Esercizi Flask 2
 
 Creare un semplice webserver con Flask che gestisce un form e restituisca una pagina web con il risultato.
 
-[Soluzione](/esercizi/flask-example/servers.py)
-[template](/esercizi/flask-example/templates/indexs.html)
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/flask-example/servers.py)
+[template](https://moris88.github.io/formazione-python/esercizi/flask-example/templates/indexs.html)
 
 ### Altri esercizi
 

@@ -213,3 +213,5 @@ La list comprehension annidata può essere utilizzata per creare strutture dati 
 Le strutture dati di Python, tra cui liste, tuple, set e dizionari, forniscono un modo flessibile e potente per memorizzare, organizzare e manipolare dati in Python. La list comprehension e la list comprehension annidata consentono di creare liste in modo conciso e leggibile, e possono essere utilizzate per creare strutture dati complesse.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/)

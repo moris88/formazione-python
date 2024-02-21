@@ -49,3 +49,5 @@ In conclusione, l'interprete Python fornisce un ambiente interattivo per eseguir
 L'interprete Python è il programma che esegue il codice sorgente Python. Consente di eseguire il codice Python in modo interattivo, visualizzare i risultati in tempo reale e testare rapidamente nuove idee. L'interprete Python è uno strumento potente e flessibile che rende Python un linguaggio di programmazione molto adatto per lo sviluppo rapido di applicazioni.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/)

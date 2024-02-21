@@ -1,125 +1,60 @@
-# Flask
+# I JSON in Python
 
-## Introduzione
+## JSON
 
-Flask è un micro-framework per Python che permette di creare applicazioni web in modo semplice e veloce. Flask è basato su Werkzeug e Jinja2 e segue il principio di "non reinventare la ruota" (Don't reinvent the wheel) e si concentra su mantenere il nucleo del framework semplice ma estendibile.
+I JSON (JavaScript Object Notation) sono un formato di scambio dati leggero e indipendente dal linguaggio di programmazione. Sono basati su un sottoinsieme del linguaggio di programmazione JavaScript, ma sono utilizzati anche in altri linguaggi di programmazione, inclusi Python.
+In Python, i JSON sono rappresentati come dizionari Python. Questo perché la struttura di un JSON è molto simile a quella di un dizionario Python, con coppie chiave-valore.
 
-## Installazione
+## Lavorare con JSON in Python
 
-Per installare Flask, aprire il terminale e digitare il comando `pip install flask`. Se si utilizza un sistema operativo Linux, potrebbe essere necessario utilizzare il comando `pip3 install flask`.
-
-## Hello World
-
-Per creare un'applicazione web con Flask, è necessario creare un file con estensione `.py` e scrivere il seguente codice:
+Puoi utilizzare il modulo json integrato di Python per lavorare con JSON. Ecco un esempio di come convertire un oggetto Python in JSON e viceversa:
 
 ```python
-from flask import Flask
+import json
 
-app = Flask(__name__)
+# Convertire un dizionario Python in una stringa JSON
+data = {'name': 'John', 'age': 30, 'city': 'New York'}
+json_string = json.dumps(data)
+print(json_string)  # Stampa: {"name": "John", "age": 30, "city": "New York"}
 
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
-
-if __name__ == '__main__':
-    app.run()
+# Convertire una stringa JSON in un dizionario Python
+json_string = '{"name": "Alice", "age": 25, "city": "Los Angeles"}'
+data = json.loads(json_string)
+print(data)  # Stampa: {'name': 'Alice', 'age': 25, 'city': 'Los Angeles'}
 ```
 
-Salvare il file con il nome `app.py` e aprire il terminale. Navigare nella cartella in cui è stato salvato il file `app.py` e digitare il comando `python app.py`. Aprire il browser e digitare l'indirizzo `http://localhost:5000`. Dovrebbe apparire la scritta `Hello, World!`.
+La funzione json.dumps() viene utilizzata per convertire un oggetto Python in una stringa JSON, mentre json.loads() viene utilizzata per convertire una stringa JSON in un oggetto Python.
 
-## Routing
+### Leggere un file JSON
 
-Il routing è il meccanismo che permette di associare un URL a una funzione. Per esempio, se si desidera associare l'URL `/home` alla funzione `home`, è possibile scrivere il seguente codice:
+Puoi anche leggere i dati JSON da un file utilizzando le funzioni json.load(). Ecco un esempio:
 
 ```python
-@app.route('/home')
-def home():
-    return 'Home Page'
+import json
+
+# Leggere dati JSON da un file
+with open('data.json', 'r') as file:
+    loaded_data = json.load(file)
+    print(loaded_data)
 ```
 
-## Variabili negli URL
+In questo esempio, stiamo leggendo i dati JSON dal file `data.json` e stampandoli sulla console.
 
-È possibile passare variabili negli URL. Per esempio, se si desidera passare una variabile `name` nell'URL, è possibile scrivere il seguente codice:
+### Scrivere un file JSON
+
+Puoi anche scrivere i dati JSON verso un file utilizzando le funzioni json.dump(). Ecco un esempio:
 
 ```python
-@app.route('/user/<name>')
-def user(name):
-    return f'User: {name}'
+import json
+
+# Scrivere i dati JSON in un file
+data = {'name': 'John', 'age': 30, 'city': 'New York'}
+with open('data.json', 'w') as file:
+    json.dump(data, file)
 ```
 
-## Template
-
-Flask permette di utilizzare template per generare pagine web dinamiche. Per utilizzare i template, è necessario creare una cartella con il nome `templates` nella stessa cartella in cui è presente il file `app.py`. All'interno della cartella `templates`, è possibile creare un file con estensione `.html` e scrivere il codice HTML.
-
-Per utilizzare i template, è necessario importare la funzione `render_template` e utilizzarla all'interno della funzione che gestisce l'URL. Per esempio, se si desidera utilizzare il template `index.html`, è possibile scrivere il seguente codice:
-
-```python
-from flask import render_template
-
-@app.route('/index')
-def index():
-    return render_template('index.html')
-```
-
-## Form
-
-Flask permette di gestire i form. Per utilizzare i form, è necessario importare la funzione `request` e utilizzarla all'interno della funzione che gestisce l'URL. Per esempio, se si desidera gestire un form con il metodo `POST`, è possibile scrivere il seguente codice:
-
-```python
-from flask import request
-
-@app.route('/login', methods=['GET', 'POST'])
-def login():
-    if request.method == 'POST':
-        return f'Username: {request.form["username"]}, Password: {request.form["password"]}'
-    return render_template('login.html')
-```
-
-## Request e Response
-
-Flask permette di gestire le richieste e le risposte. Per esempio, se si desidera gestire una richiesta di tipo `POST` e rispondere se la richiesta è corretta utilizzando jsonify, è possibile scrivere il seguente codice:
-
-```python
-from flask import request, jsonify
-
-@app.route('/login', methods=['POST'])
-def login():
-    if request.method == 'POST':
-        if request.form['username'] == 'admin' and request.form['password'] == 'admin':
-            return jsonify({'message': 'Login successful'})
-        else:
-            return jsonify({'message': 'Invalid credentials'})
-    return render_template('login.html')
-```
-
-## Database
-
-Flask permette di utilizzare database. Per utilizzare un database, è necessario installare un'estensione per Flask. Per esempio, se si desidera utilizzare SQLite, è possibile installare l'estensione con il comando `pip install flask-sqlalchemy`.
-
-Dopo aver installato l'estensione, è possibile utilizzare il database all'interno del file `app.py`. Per esempio, è possibile scrivere il seguente codice:
-
-```python
-from flask_sqlalchemy import SQLAlchemy
-
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
-db = SQLAlchemy(app)
-
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(80), unique=True, nullable=False)
-    email = db.Column(db.String(120), unique=True, nullable=False)
-
-    def __repr__(self):
-        return f'<User {self.username}>'
-
-db.create_all()
-```
-
-### Conclusione
-
-Flask permette di creare applicazioni web dinamiche. È possibile utilizzare il routing, i template, i form e i database per creare applicazioni web complesse. Flask è un micro-framework che permette di creare applicazioni web in modo semplice e veloce.
+In questo esempio, stiamo scrivendo i dati JSON in un file `data.json`.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
 
-[HOMEPAGE](https://moris88.github.io/formazione-python/) | [LEZIONE SUCCESSIVA](https://moris88.github.io/formazione-python/lezioni/lezione23)
+[HOMEPAGE](https://moris88.github.io/formazione-python/) | [LEZIONE SUCCESSIVA](https://moris88.github.io/formazione-python/lezioni/lezione24)

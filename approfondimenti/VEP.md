@@ -73,3 +73,5 @@ In questo comando, `pip uninstall` è l'istruzione per rimuovere un pacchetto Py
 In questo articolo, abbiamo esaminato cos'è un ambiente virtuale Python, come creare un ambiente virtuale, come attivarlo, come installare e visualizzare le dipendenze del progetto e come rimuovere un pacchetto installato. Utilizzare gli ambienti virtuali Python è un modo efficace per gestire le dipendenze del progetto e mantenere un ambiente di sviluppo pulito e organizzato.
 
 #### By [Maurizio Tolomeo](https://github.com/moris88)
+
+[HOMEPAGE](https://moris88.github.io/formazione-python/)

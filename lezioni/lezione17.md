@@ -19,6 +19,27 @@ def ciao():
 
 In questo esempio, `decoratore` è una funzione che accetta un'altra funzione come argomento e restituisce una nuova funzione. La funzione `wrapper` è una funzione di chiusura che stampa un messaggio prima e dopo l'esecuzione della funzione passata come argomento. La funzione `ciao` è decorata con `decoratore` utilizzando la sintassi `@`.
 
+### Property Decorator
+
+I decoratori possono anche essere usati per definire un metodo come proprietà. Per esempio, se si vuole definire un metodo come proprietà, è possibile utilizzare il decoratore `property`.
+
+```python
+class Automobile:
+    def __init__(self, marca, modello):
+        self._marca = marca
+        self.modello = modello
+
+    @property
+    def marca(self):
+        return self._marca
+
+    @marca.setter
+    def marca(self, nuova_marca):
+        self._marca = nuova_marca
+```
+
+In questo esempio, `marca` è un metodo decorato con `@property` che restituisce il valore di `_marca`. Il metodo `marca` è anche decorato con `@marca.setter` che consente di impostare il valore di `_marca`.
+
 ## Generatori
 
 I generatori sono una funzionalità potente di Python che consente di scrivere codice più efficiente e leggibile. I generatori sono simili alle funzioni, ma restituiscono un iteratore che genera valori uno alla volta utilizzando la parola chiave `yield`.
