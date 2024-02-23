@@ -173,9 +173,7 @@ Ecco un esempio di utilizzo di un modello di Machine Learning con Python:
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, r2_score
-from sklearn.model_selection import train_test_split
 
 
 def predict_sales(time):
@@ -214,6 +212,71 @@ predict_sales(time)
 <img width="400" src="https://moris88.github.io/formazione-python/assets/images/machine-learning-2.png" alt="grafico">
 
 In questo esempio, viene utilizzato un modello di regressione polinomiale per predire le vendite in base al tempo.
+
+## Esempio 3
+
+Ecco un esempio di creazione di un modello di Machine Learning con Python:
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import train_test_split
+
+
+def fitness_analyser(height, weight):
+    print("Height:", height)
+    print("Weight:", weight)
+    overweight_people = [[100, 90], [120, 100],
+                         [200, 175], [80, 100], [40, 60]]
+    fit_people = [[60, 175], [90, 190], [80, 180], [50, 140], [30, 120]]
+
+    people = fit_people + overweight_people
+    is_fit = [1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
+
+    X = np.array(people)
+    y = np.array(is_fit)
+
+    train_X, test_X, train_y, test_y = train_test_split(
+        X, y, random_state=0, test_size=.2)
+
+    model = KNeighborsClassifier(n_neighbors=3)
+    model.fit(train_X, train_y)
+
+    print("Score:", model.score(test_X, test_y))
+
+    prediction = model.predict([[height, weight]])
+    print(f"Prediction: {prediction[0]}")
+    result = 'Fit' if int(prediction[0]) == 1 else 'Fat'
+    print(f"Prediction: {result}")
+
+    ow_scatter = [np.array(overweight_people)[:, 0],
+                  np.array(overweight_people)[:, 1]]
+    f_scatter = [np.array(fit_people)[:, 0], np.array(fit_people)[:, 1]]
+
+    plt.scatter(ow_scatter[0], ow_scatter[1], color="red")
+    plt.scatter(f_scatter[0], f_scatter[1], color="green")
+
+    plt.scatter(weight, height, color="blue", s=100)
+    plt.xlabel("Height")
+    plt.ylabel("Weight")
+    plt.show()
+
+
+height = 110
+weight = 35
+fitness_analyser(height, weight)
+
+# Output:
+# Height: 110
+# Weight: 35
+# Score: 1.0
+# Prediction: 1 Fit
+```
+
+<img width="400" src="https://moris88.github.io/formazione-python/assets/images/machine-learning-3.png" alt="grafico">
+
+In questo esempio, viene creato un modello di classificazione K-Nearest Neighbors per predire se una persona è in forma o sovrappeso in base all'altezza e al peso.
 
 ### Conclusioni
 
