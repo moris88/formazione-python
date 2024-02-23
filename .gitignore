@@ -1,4 +1,3 @@
 /.vscode
-test.py
-testing.ipynb
+*.ipynb
 *.db

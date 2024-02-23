@@ -165,6 +165,12 @@ Nota: utilizzare dizionari ed elenchi per memorizzare i dati.
 
 [Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio12.py)
 
+## Esercizi 13
+
+Scrivere un programma Python che itera su una classe enum e visualizza ciascun membro e il relativo valore
+
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio13.py)
+
 ## Esercizi Database
 
 Creare un database SQLite con una tabella chiamata "Costumer" con i seguenti campi:
