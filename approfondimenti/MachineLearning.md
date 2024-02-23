@@ -211,7 +211,7 @@ predict_sales(time)
 # r2 0.9715107549847242
 ```
 
-<img width="400" src="https://moris88.github.io/formazione-python/assets/images/machine-learning2.png" alt="grafico">
+<img width="400" src="https://moris88.github.io/formazione-python/assets/images/machine-learning-2.png" alt="grafico">
 
 In questo esempio, viene utilizzato un modello di regressione polinomiale per predire le vendite in base al tempo.
 
