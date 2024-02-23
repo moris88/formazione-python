@@ -65,6 +65,8 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [SQLAlchemy](/approfondimenti/SQLAlchemy.md)
 - [Flask](/approfondimenti/Flask.md)
 - [FastAPI](/approfondimenti/FastAPI.md)
+- [OpenAI](/approfondimenti/OpenAI.md)
+- [Machine Learning](/approfondimenti/MachineLearning.md)
 
 ### Esercizi svolti
 
@@ -122,6 +124,8 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [pydantic](https://pydantic-docs.helpmanual.io/)
 - [streamlit](https://docs.streamlit.io/)
+- [openai](https://openai.com/)
+- [scikit-learn](https://scikit-learn.org/stable/)
 
 [Website](https://moris88.github.io/formazione-python/)
 
