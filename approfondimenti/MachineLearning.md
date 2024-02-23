@@ -107,7 +107,7 @@ Ecco alcuni esempi di strumenti che possono essere utilizzati per creare modelli
 - FastAPI
 - OpenAI
 
-## Esempio
+## Esempio 1
 
 Ecco un esempio di creazione di un modello di Machine Learning con Python:
 
@@ -164,6 +164,56 @@ predict_salary(years_of_experience)
 <img width="400" src="https://moris88.github.io/formazione-python/assets/images/machine-learning.png" alt="grafico">
 
 In questo esempio, viene creato un modello di regressione lineare per predire lo stipendio in base agli anni di esperienza.
+
+## Esempio 2
+
+Ecco un esempio di utilizzo di un modello di Machine Learning con Python:
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error, r2_score
+from sklearn.model_selection import train_test_split
+
+
+def predict_sales(time):
+    raw_data = {"years": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "sales": [
+        10, 30, 50, 60, 50, 54, 67, 68, 80, 100]}
+    df = pd.DataFrame(raw_data)
+    X = np.array(df["years"]).tolist()
+    y = np.array(df["sales"]).tolist()
+
+    model = np.poly1d(np.polyfit(X, y, deg=3))
+
+    y_prediction = model(time)
+    y_prediction_test = model(X)
+    print("Prediction: ", y_prediction)
+
+    print("MAE", mean_absolute_error(y, y_prediction_test))
+    print("r2", r2_score(y, y_prediction_test))
+
+    curvy_line = np.linspace(1, 10, 100)
+    plt.scatter(X, y, color="blue")
+    plt.plot(curvy_line, model(curvy_line), color="red")
+    plt.show()
+
+
+time = 15.5
+print("Time:", time)
+predict_sales(time)
+
+# Output:
+# Time: 15.5
+# Prediction:  484.2656031468515
+# MAE 3.1176689976690044
+# r2 0.9715107549847242
+```
+
+<img width="400" src="https://moris88.github.io/formazione-python/assets/images/machine-learning2.png" alt="grafico">
+
+In questo esempio, viene utilizzato un modello di regressione polinomiale per predire le vendite in base al tempo.
 
 ### Conclusioni
 
