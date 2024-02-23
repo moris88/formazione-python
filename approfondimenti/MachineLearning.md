@@ -161,7 +161,7 @@ predict_salary(years_of_experience)
 # r2 0.9552474870490842
 ```
 
-<img width="400" src="../assets/images/machine-learning.png" alt="awesome logo of python">
+<img width="400" src="https://moris88.github.io/formazione-python/assets/images/machine-learning.png" alt="grafico">
 
 In questo esempio, viene creato un modello di regressione lineare per predire lo stipendio in base agli anni di esperienza.
 
