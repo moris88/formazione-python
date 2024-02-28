@@ -171,6 +171,60 @@ Scrivere un programma Python che itera su una classe enum e visualizza ciascun m
 
 [Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio13.py)
 
+## Esercizi 14
+
+In Svezia, i bambini giocano spesso utilizzando un linguaggio un po' particolare detto rövarspråket, che significa "linguaggio dei furfanti": consiste nel raddoppiare ogni consonante di una parola e inserire una "o" nel mezzo. Ad esempio la parola "mangiare" diventa "momanongogiarore".
+
+Scrivi una funzione in grado di tradurre una parola o frase passata tramite input in rövarspråket. Dopo aver tradotto una frase, il programma dovrà chiedere all'utente se intende tradurne un'altra, e in caso di risposta positiva, dovrà attendere l'inserimento di una nuova parola da parte dell'utente.
+
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio14.py)
+
+## Esercizi 15
+
+Scrivi una funzione a cui viene passata una parola e riconosce se si tratta di un palindromo (parola che si legge allo stesso modo da destra a sinistra e viceversa) oppure meno. La funzione dovrà restituire True se la parola è palindroma, False altrimenti.
+
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio15.py)
+
+## Esercizi 16
+
+Scrivi una funzione generatrice di password.
+La funzione deve generare una stringa alfanumerica
+di 8 caratteri qualora l'utente voglia una password semplice,
+e di 20 caratteri ASCII qualora desideri una password più complicata.
+
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio16.py)
+
+## Esercizi 17
+
+Scrivi una semplice funzione "rimario", a cui viene passato un elenco di parole come parametro
+e che riceva una parola inserita dall'utente tramite la funzione input.
+
+La funzione rimario dovrá confrontare la parola inserita dall'utente con quelle presenti
+nell'elenco passato, alla ricerca di rime, intese come parole le cui ultime 3 lettere siano uguali
+alla parola inserita dall'utente.
+
+Le rime dovranno essere quindi mostrate in output utilizzando il metodo join.
+
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio17.py)
+
+## Esercizi 18
+
+IL ROT-13 e un semplice cifrario alfabetico
+in cui ogni lettera del messaggio da cifrare viene sostituita
+con quella posta 13 posizioni piu avanti nell'alfabeto.
+
+Scrivi una semplice funzione in grado di criptare una stringa passata,
+decriptarla se la stringa e gia stata precedentemente codificata.
+
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio18.py)
+
+## Esercizi 19
+
+Scrivere una funzione ricorsiva che restituisce in output i numeri della successione di Fibonacci,
+entro una soglia specifica impostata dall'utente.
+
+[Soluzione](https://moris88.github.io/formazione-python/esercizi/esercizio19.py)
+
 ## Esercizi Database
 
 Creare un database SQLite con una tabella chiamata "Costumer" con i seguenti campi:
