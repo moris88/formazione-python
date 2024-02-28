@@ -1,4 +1,4 @@
-# DB non relazionali su python: MongoDB
+# DB non relazionali su Python: MongoDB
 
 ## Introduzione
 

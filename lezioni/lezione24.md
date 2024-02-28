@@ -1,4 +1,4 @@
-# Funzioni asincrone in python
+# Funzioni asincrone in Python
 
 ## Introduzione
 

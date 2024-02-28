@@ -53,7 +53,7 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [Lezione 21](/lezioni/lezione21.md): Enumerazioni
 - [Lezione 22](/lezioni/lezione22.md): Richieste HTTP
 - [Lezione 23](/lezioni/lezione23.md): I JSON in Python
-- [Lezione 24](/lezioni/lezione24.md): Funzioni asincrone in python
+- [Lezione 24](/lezioni/lezione24.md): Funzioni asincrone in Python
 
 ### Approfondimenti
 
