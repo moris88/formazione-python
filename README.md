@@ -69,6 +69,7 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [OpenAI](/approfondimenti/OpenAI.md)
 - [Machine Learning](/approfondimenti/MachineLearning.md)
 - [MongoDB](/approfondimenti/MongoDB.md)
+- [Streamlit](/approfondimenti/Streamlit.md)
 
 ### Esercizi svolti
 
@@ -128,6 +129,8 @@ Questo repository contiene materiale didattico per l'apprendimento del linguaggi
 - [streamlit](https://docs.streamlit.io/)
 - [openai](https://openai.com/)
 - [scikit-learn](https://scikit-learn.org/stable/)
+- [streamlit](https://www.streamlit.io/)
+- [tensorflow](https://www.tensorflow.org/)
 
 [Website](https://moris88.github.io/formazione-python/)
 
